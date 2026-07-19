@@ -4,7 +4,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project state
 
-This repository has no code yet — it currently contains only `INTENT.md`. There are no build, lint, or test commands to run because no application has been scaffolded.
+This repository has no code yet — it currently contains only planning/contract docs (`INTENT.md`, `DESIGN.md`, `MEMORY.md`). There are no build, lint, or test commands to run because no application has been scaffolded.
+
+## Where knowledge lives
+
+Read `MEMORY.md` first — it defines which file owns which kind of decision and how decisions get consolidated (draft → discuss → commit) so this doesn't need re-litigating every session. In short: **what** we're building lives in `INTENT.md`, **how it looks** lives in `DESIGN.md`, and **why a decision was made** lives in commit messages — not in this file.
 
 ## Project intent
 
